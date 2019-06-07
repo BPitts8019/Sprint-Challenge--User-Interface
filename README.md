@@ -38,20 +38,20 @@ Edit this document to include your answers after each question. Make sure to lea
 
 2. Name two big differences between ```display: block;``` and ```display: inline;```.
 
-    display: block
+    ```display: block```
     - Will take up as much space as its parent element will allow, unless height and/or width are applied.
     - Will break content onto a new line
 
-    display: inline
+    ```display: inline```
     - Will take up only as much space as its content needs. Height and width have no effect.
     - Does not break content onto a new line
 
 3. What are the 4 areas of the box model?
 
-    1. Margin
-    2. Border
-    3. Padding
-    4. Content
+    - Margin
+    - Border
+    - Padding
+    - Content
 
 4. While using flexbox, what axis does the following property work on: ```align-items: center```?
 
