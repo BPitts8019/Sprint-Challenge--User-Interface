@@ -197,6 +197,19 @@ header nav a {
     margin-bottom: 20px;
 }
 
+/* stretch goal - add animation */
+.about-item button:hover {
+	background-color: crimson;
+	border-color: black;
+    color: white;
+}
+
+.about-item button:active {
+	background-color: rgb(110, 14, 33);
+	border-color: black;
+	color: white;
+}
+
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
