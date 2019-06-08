@@ -106,6 +106,12 @@ header nav a {
     padding-bottom: 20px;  
 }
 
+.top-content .about-text {
+    width: 100%;
+    padding: 0 1%;
+    padding-bottom: 20px;
+}
+
 .middle-content {
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
@@ -162,6 +168,39 @@ header nav a {
 }
 .middle-content .boxes .box-10 {
     background-color: dodgerblue;
+}
+
+.about-content {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+}
+
+.about-item {
+    width: 370px;
+    margin-bottom: 20px;
+    border-bottom: 1px dashed black;
+}
+
+.about-item .about-text {
+    margin: 20px 0px;
+}
+
+.about-item button {
+    background-color: white;
+    border: 2px solid black;
+    border-radius: 10px;
+    cursor: pointer;
+    font-weight: bolder;
+    outline: none;
+    padding: 10px 20px;
+    margin-bottom: 20px;
+    /* 
+    background-color: white;
+	border: 1px solid black;
+	cursor: pointer;
+	font-family: inherit;
+    */
 }
 
 .bottom-content {
